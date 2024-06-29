@@ -6,8 +6,14 @@ export default function Home() {
     'gds fsdf dsf dsf sdf sdf sd fdsf sdf sdfds'
   
   return (
-    <main className='h-full'>
+    <div className='w-full h-full flex justify-center items-center flex-wrap gap-4'>
       <Test title='Title of card' date='29.06.24' content={testString}/>
-    </main>
+      <Test title='Title of card' date='29.06.24' content={testString}/>
+      <Test title='Title of card' date='29.06.24' content={testString}/>
+      <Test title='Title of card' date='29.06.24' content={testString}/>
+      <Test title='Title of card' date='29.06.24' content={testString}/>
+      <Test title='Title of card' date='29.06.24' content={testString}/>
+      <Test title='Title of card' date='29.06.24' content={testString}/>
+    </div>
   );
 }

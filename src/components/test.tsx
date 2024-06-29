@@ -4,8 +4,7 @@ export default function Test({title, date, content}: {
   content: string
 }) {
   
-  return <div className='w-full h-full flex justify-center items-center'>
-    <div className='h-[300px] w-[300px] bg-amber-200 px-4 py-2 space-y-8'>
+  return <div className='h-[300px] w-[300px] bg-amber-200 px-4 py-2 space-y-8'>
       {/*header block*/}
       <div className='flex justify-between items-center'>
         <div className='text-2xl font-bold'>
@@ -21,5 +20,4 @@ export default function Test({title, date, content}: {
         {content}
       </div>
     </div>
-  </div>
 }
