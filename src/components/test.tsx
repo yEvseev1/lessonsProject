@@ -1,6 +1,6 @@
 export default function Test({title, date, content}: {
   title: string
-  date: string
+  date: string | Date
   content: string
 }) {
   
