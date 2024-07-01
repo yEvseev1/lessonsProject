@@ -16,6 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en" className='h-full'>
     <body className={`${manrope.className} bg-gray-500 h-full `}>
+    <div>
+      layout 1
+    </div>
       {children}
     </body>
     </html>
